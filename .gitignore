@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+credentials*.json
+token*.json
+*.pickle
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.DS_Store
+*.log
+.vscode/
+recordings/
+data/private/
