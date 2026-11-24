@@ -67,6 +67,9 @@ Install `requirements-calendar.txt` in addition to the telephony requirements. S
 
 The default calendar is in-memory. An optional Google Calendar adapter is provided but has not been tested against a live calendar. The scheduling demo expects explicit date/time input. The optional classifier only handles intent labels. Transfers require locally configured destinations. The survey does not store free-text feedback. The outreach demo does not perform transactions or campaign dialing. Session state is process-local, and the webhook has not been validated with live telephony in this release preparation. See [architecture and limitations](docs/architecture.md).
 
-## Contributing and publication
+## Contributing and license
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) and [SECURITY.md](SECURITY.md). This preparation archive is not yet licensed for redistribution; confirm publication rights and choose an open-source license before publishing.
+See [CONTRIBUTING.md](CONTRIBUTING.md) and [SECURITY.md](SECURITY.md).
+
+This project is available under the [MIT License](LICENSE).
+Contributions and feedback are welcome.
